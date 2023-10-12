@@ -1,0 +1,72 @@
+.signInScreen {
+  max-width: 400px;
+  padding: 70px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 4px;
+}
+
+.signInScreen > form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.signInScreen > form > input {
+  height: 40px;
+  border: none;
+  outline-width: 0;
+  padding: 5px 15px;
+  /* margin: 14px auto;
+     */
+  margin-bottom: 14px;
+  border-radius: 5px;
+  /* width: 100%; */
+  font-size: 1rem;
+}
+
+.signInScreen > form > button{
+    font-size: 1rem;
+    padding: 16px 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    transition: all 0.45s ;
+}
+
+.signInScreen > form > button:hover{
+    background-color: #f82731;
+    /* border: 1px solid white; */
+    font-size: 1.2rem;
+}
+
+
+.signInScreen > form > h4{
+    font-size: small;
+    text-align: left;
+    word-spacing: 1.2px;
+}
+
+.signInScreen >  form > h1 {
+    /* font-size: 1rem; */
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.signInScreen__gray{
+    color: gray;
+}
+
+.signInScreen__link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
