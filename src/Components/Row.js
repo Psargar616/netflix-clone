@@ -36,7 +36,7 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
                   alt={movie.name}
                 />
                 
-                <div className="hide">{movie.name}</div>
+               
               </>
             )
         )}
