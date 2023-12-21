@@ -21,30 +21,32 @@
 }
 
 .row_poster {
-    position: relative !important;
+  position: relative !important;
   max-height: 150px;
   object-fit: contain;
   margin-right: 18px;
   border-radius: 4px;
   width: 100%;
   transition: all 450ms;
-  box-shadow: inset 0px 0px 10px gray;
+  box-shadow: inset 0px 5px 10px gray;
   transition: all 0.5s ease;
   object-fit: cover;
-  
+  /* overflow: hidden; */
 }
 
-.hide{
-    position: absolute;
-    top: 10px;
+.hide {
+  position: absolute;
+  top: 10px;
 }
+
 
 .row_poster:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   opacity: 1;
   border: 0.5px solid whitesmoke;
   color: white;
 }
+
 
 .row_posterLarge {
   max-height: 270px;
