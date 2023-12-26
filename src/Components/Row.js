@@ -26,7 +26,7 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
           (movie) =>
             ((isLargeRow && movie.poster_path) ||
               (!isLargeRow && movie.backdrop_path)) && (
-              <>
+              <div className="card">
                 <img
                   className={`row_poster && ${isLargeRow && "row_posterLarge"}`}
                   key={movie.id}
@@ -35,9 +35,10 @@ const Row = ({ title, fetchUrl, isLargeRow = false }) => {
                   }`}
                   alt={movie.name}
                 />
+                <p className="movie_name"> {movie?.title || movie?.name || movie?.original_name}</p>
                 
                
-              </>
+              </div>
             )
         )}
       </div>
